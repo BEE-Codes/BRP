@@ -87,7 +87,7 @@
     bottom: 175px;
     left: 390px;
     background-color:#ffffff;
-    box-shadow:1px 1px 3px 1px black;
+    box-shadow:3px 3px 3px 1px rgb(214, 208, 208);
     border-radius:6%;
 }
 #faces{
@@ -140,37 +140,35 @@
     height: 33px;
 }
 .header-and-paragraph{
-    width: 80%;
-    height:205px;
+    width:90%;
+    height:250px;
+    margin-top:15px;
 }
 .first-header{
-    /* margin-top: 15px;
-    margin-bottom:20px;
-    font-size:1.8rem;
-    font-weight:900;
-    font-family:Montserrat;
-    color: black; */
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 135.5%;
+    font-size: 28px;
+    line-height:43px;
 }
 .first-paragraph{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 17px;
-    line-height:28px;
+    line-height:22px;
     font-size: 1rem;
     color:#9F9F9F;
+    margin-top: 12px;
+}
+#move-it{
+    margin-top: 70px;
 }
 #download{
     width: 39%;
     height: 59px;
     border-radius: 10px;
-    margin-top: 90px;
-    margin-bottom: 70px;
+    margin-top:80px;
+    margin-bottom: 50px;
     background-color: #023555;
     display: flex;
     align-items: center;
@@ -208,23 +206,23 @@
 }
 /* styling section 3 */
 #sect-3{
-    width: 100%;
-    height: 800px;
+    width: 99%;
+    height: 750px;
     color: #ffffff;
 }
 #grey-box{
     width: 90%;
-    height: 700px;
+    height: 740px;
+    box-sizing: border-box;
     background-color:#f6f6f6;
+    border:1px solid #DBE4E9;
     border-radius:20px;
-    border:1px solid #bbc9d1;
     margin-left:76px;
     display: flex;
-    justify-content: space-between;
 }
 #set-writeups{
-    width: 50%;
-    height: 650px;
+    width: 45%;
+    height: 700px;
 }
 #A-header{
     width: 60%;
@@ -236,7 +234,7 @@
     color: black;
 }
 #father-div{
-    width:75%;
+    width:98%;
     padding-right:10px;
     word-spacing:1px; 
     margin-top: 60px; 
@@ -251,7 +249,7 @@
     margin-left:45px;
 }
 #mortage{
-    width: 45%;
+    width: 50%;
     height: 40px;
     display: flex;
     align-items: center;
@@ -259,37 +257,37 @@
     margin-top:100px;
 }
 #mor-tage{
-    font-size: 1.28rem;
-    font-weight: 900;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    font-weight:900;
     color:black;
 }
 #right-arrow{
     width:13px;
-    margin-left:10px;
+    margin-left:12px;
     margin-top:6px;
 }
 #set-image{
     width: 50%;
-    height: 650px;
-    border: 1px solid  red;
+    height: 740px;
 }
-#mortage-man{
-    width: 100%;
-    height: 780px;
-    margin-top:-40px;
+#mortgage-man{
+    width:700px;
+    height: 900px;
+    margin-top:-60px;
 }
 /* section 4 styling */
 #section-4{
     width: 100%;
-    height: 800px;
+    height: 500px;
+    margin-top:90px;
 }
 #get-started{
     font-family:Montserrat;
     font-size: 3rem;
     margin-left:90px;
     word-spacing:5px;
-    margin-bottom:60px;
+    margin-bottom:30px;
 }
 #flex-boxes{
     width:95%;
@@ -303,10 +301,139 @@
     width:28%;
     height:340px;
     border-radius:4%;
-    border:1px solid blue;
-    background-color:#DBE4E9;
+    border:1px solid #DBE4E9;
+    background-color:#f6f6f6;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+.image-container{
+    width: 80%;
+    height:80px;
+    text-align:center;
+    margin-top: -50px;
+}
+.hand-house{
+   width:29%;
+   height:70px; 
+   margin-top:70px;
+}
+.the-heading{
+    width: 70%;
+    font-family:Montserrat;
+    font-style: normal;
+    font-weight:700;
+    font-size: 23px;
+    line-height:28px;
+    text-align: center;
+    color: #000000;
+    margin-top: 60px;
+}
+.speech{
+    width: 90%;
+    text-align: center;
+    font-size:0.9rem;
+    line-height: 20px;
+    font-family: montserrat;
+    margin-top: 30px;
+}
+.free-guide-download{
+    width: 70%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: center;
+}
+.freee{
+    font-size:1rem;
+    font-weight:700;
+    font-family:montserrat;
+    font-size:0.8rem;
+}
+#cloud{
+    font-size:1.2rem;
+    margin-left:10px; 
+}
+/* section 5 styling */
+#sec-5{
+    width: 100%;
+    height: 900px;
+}
+#sect-5-header{
+width: 40%;
+margin-left:27%;
+margin-top:95px;  
+font-family:Montserrat;
+font-weight: 700;
+font-size: 2.5rem;
+line-height:50px;
+text-align: center;
+color: #000000;
+}
+#flexed-boxes{
+width: 95%;
+height: 600px;
+margin-left:45px;
+margin-top: 70px;
+display: flex;
+justify-content: space-evenly;
+}
+.fast-work{
+width:30%;
+height:560px;
+border-radius:4%;
+background-color: #ffffff;
+box-shadow:3px 3px 7px 1px rgb(214, 208, 208);
+}
+#blue-card{
+background-color:#007CB4;
+color: #ffffff;
+}
+#blue-card-word{
+    color: #ffffff;
+}
+.image-container-2{
+width: 21%;
+height: 90px;
+margin-left:29px;
+margin-top: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: rgba(88, 187, 232, 0.46);
+border-radius: 17px;
+}
+.iconic{
+    width: 55%;
+    height:50px;
+}
+.the-heading-2{
+    width: 70%;
+    height:50px;
+    font-family:Montserrat;
+    font-size: 1.2rem;
+    margin-left:25px;
+    margin-top: 35px;
+    font-weight: 900;
+    line-height: 25px;
+}
+.speech-2{
+    width: 90%;
+    text-align: center;
+    font-size:1.1rem;
+    line-height:30px;
+    font-weight:700;
+    font-family:montserrat;
+    margin-top:23px;
+    margin-left:25px;
+    color:#9F9F9F;
+}
+/* styling section 6 */
+#sect-6{
+    width: 100%;
+    height: 450px;
+}
+
+
